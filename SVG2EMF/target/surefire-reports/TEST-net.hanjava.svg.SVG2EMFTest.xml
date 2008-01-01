@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="1.36" errors="0" skipped="0" tests="1" name="net.hanjava.svg.SVG2EMFTest">
+<testsuite failures="0" time="9.163" errors="0" skipped="0" tests="1" name="net.hanjava.svg.SVG2EMFTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_03\jre\bin"/>
@@ -57,5 +57,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="1.35" name="testConvert"/>
+  <testcase time="9.093" name="testConvert"/>
 </testsuite>
