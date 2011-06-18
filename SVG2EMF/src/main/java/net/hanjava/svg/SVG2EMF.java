@@ -1,6 +1,7 @@
 package net.hanjava.svg;
 
 import java.awt.Dimension;
+import java.awt.GraphicsEnvironment;
 import java.awt.geom.Rectangle2D;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -41,6 +42,9 @@ public class SVG2EMF {
         // write to EmfWriter
         FileOutputStream emfStream = new FileOutputStream(emfFile);
         EmfWriterGraphics eg2d = new EmfWriterGraphics(emfStream, new Dimension(w, h));
+        if(GraphicsEnvironment.isHeadless()) {
+        	eg2d.setDeviceIndependent(true);
+        }
         eg2d.startExport();
         rootNode.paint(eg2d);
         eg2d.dispose();
