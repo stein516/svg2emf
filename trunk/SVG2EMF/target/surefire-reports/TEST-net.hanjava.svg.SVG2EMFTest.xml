@@ -1,72 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="5.227" errors="0" skipped="0" tests="2" name="net.hanjava.svg.SVG2EMFTest">
+<testsuite failures="0" time="1.852" errors="0" skipped="0" tests="2" name="net.hanjava.svg.SVG2EMFTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
-    <property name="java.vm.version" value="19.1-b02-334"/>
-    <property name="awt.nativeDoubleBuffering" value="true"/>
-    <property name="gopherProxySet" value="false"/>
-    <property name="mrj.build" value="10M3326"/>
-    <property name="java.vm.vendor" value="Apple Inc."/>
-    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="sun.boot.library.path" value="/usr/local/sun-jdk1.6.0_22/jre/lib/i386"/>
+    <property name="java.vm.version" value="17.1-b03"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
     <property name="path.separator" value=":"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.country" value="KR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/behumble/Documents/workspace/SVG2EMF"/>
-    <property name="java.runtime.version" value="1.6.0_24-b07-334-10M3326"/>
-    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
-    <property name="basedir" value="/Users/behumble/Documents/workspace/SVG2EMF"/>
-    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Users/behumble/Documents/workspace/SVG2EMF/target/surefire/surefirebooter1353784827056957487.jar"/>
-    <property name="java.io.tmpdir" value="/var/folders/Ff/Ff7KB675GkGcULD0nObl-E+++TI/-Tmp-/"/>
-    <property name="apple.awt.graphics.UseOpenGL" value="false"/>
+    <property name="user.dir" value="/home/agoo/privateWorkspace/SVG2EMF"/>
+    <property name="java.runtime.version" value="1.6.0_22-b04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/agoo/privateWorkspace/SVG2EMF"/>
+    <property name="java.endorsed.dirs" value="/usr/local/sun-jdk1.6.0_22/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="surefire.real.class.path" value="/tmp/surefirebooter623198459144961478.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="sun.jnu.encoding" value="EUC_KR"/>
-    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="surefire.test.class.path" value="/Users/behumble/Documents/workspace/SVG2EMF/target/test-classes:/Users/behumble/Documents/workspace/SVG2EMF/target/classes:/Users/behumble/.m2/repository/batik/batik-gvt/1.6-1/batik-gvt-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-awt-util/1.6-1/batik-awt-util-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-util/1.6-1/batik-util-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-gui-util/1.6-1/batik-gui-util-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-ext/1.6-1/batik-ext-1.6-1.jar:/Users/behumble/.m2/repository/xml-apis/xmlParserAPIs/2.0.2/xmlParserAPIs-2.0.2.jar:/Users/behumble/.m2/repository/org/freehep/freehep-graphicsio-emf/2.1.1/freehep-graphicsio-emf-2.1.1.jar:/Users/behumble/.m2/repository/org/freehep/freehep-util/2.0.2/freehep-util-2.0.2.jar:/Users/behumble/.m2/repository/org/netbeans/openide-lookup/1.9-patched-1.0/openide-lookup-1.9-patched-1.0.jar:/Users/behumble/.m2/repository/org/freehep/freehep-graphicsio/2.1.1/freehep-graphicsio-2.1.1.jar:/Users/behumble/.m2/repository/org/freehep/freehep-graphics2d/2.1.1/freehep-graphics2d-2.1.1.jar:/Users/behumble/.m2/repository/org/freehep/freehep-export/2.1.1/freehep-export-2.1.1.jar:/Users/behumble/.m2/repository/org/freehep/freehep-swing/2.0.3/freehep-swing-2.0.3.jar:/Users/behumble/.m2/repository/org/freehep/freehep-io/2.0.2/freehep-io-2.0.2.jar:/Users/behumble/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar:/Users/behumble/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar:/Users/behumble/.m2/repository/batik/batik-bridge/1.6-1/batik-bridge-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-script/1.6-1/batik-script-1.6-1.jar:/Users/behumble/.m2/repository/rhino/js/1.5R4.1/js-1.5R4.1.jar:/Users/behumble/.m2/repository/batik/batik-svg-dom/1.6-1/batik-svg-dom-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-dom/1.6-1/batik-dom-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-css/1.6-1/batik-css-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-xml/1.6-1/batik-xml-1.6-1.jar:/Users/behumble/.m2/repository/xerces/xercesImpl/2.5.0/xercesImpl-2.5.0.jar:/Users/behumble/.m2/repository/batik/batik-parser/1.6-1/batik-parser-1.6-1.jar:"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/local/sun-jdk1.6.0_22/jre/lib/i386/server:/usr/local/sun-jdk1.6.0_22/jre/lib/i386:/usr/local/sun-jdk1.6.0_22/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/agoo/privateWorkspace/SVG2EMF/target/test-classes:/home/agoo/privateWorkspace/SVG2EMF/target/classes:/home/agoo/.m2/repository/batik/batik-gvt/1.6-1/batik-gvt-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-awt-util/1.6-1/batik-awt-util-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-util/1.6-1/batik-util-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-gui-util/1.6-1/batik-gui-util-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-ext/1.6-1/batik-ext-1.6-1.jar:/home/agoo/.m2/repository/xml-apis/xmlParserAPIs/2.0.2/xmlParserAPIs-2.0.2.jar:/home/agoo/.m2/repository/org/freehep/freehep-graphicsio-emf/2.1.1/freehep-graphicsio-emf-2.1.1.jar:/home/agoo/.m2/repository/org/freehep/freehep-util/2.0.2/freehep-util-2.0.2.jar:/home/agoo/.m2/repository/org/netbeans/openide-lookup/1.9-patched-1.0/openide-lookup-1.9-patched-1.0.jar:/home/agoo/.m2/repository/org/freehep/freehep-graphicsio/2.1.1/freehep-graphicsio-2.1.1.jar:/home/agoo/.m2/repository/org/freehep/freehep-graphics2d/2.1.1/freehep-graphics2d-2.1.1.jar:/home/agoo/.m2/repository/org/freehep/freehep-export/2.1.1/freehep-export-2.1.1.jar:/home/agoo/.m2/repository/org/freehep/freehep-swing/2.0.3/freehep-swing-2.0.3.jar:/home/agoo/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar:/home/agoo/.m2/repository/org/freehep/freehep-io/2.0.2/freehep-io-2.0.2.jar:/home/agoo/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar:/home/agoo/.m2/repository/batik/batik-bridge/1.6-1/batik-bridge-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-script/1.6-1/batik-script-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-svg-dom/1.6-1/batik-svg-dom-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-dom/1.6-1/batik-dom-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-css/1.6-1/batik-css-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-xml/1.6-1/batik-xml-1.6-1.jar:/home/agoo/.m2/repository/xerces/xercesImpl/2.5.0/xercesImpl-2.5.0.jar:/home/agoo/.m2/repository/batik/batik-parser/1.6-1/batik-parser-1.6-1.jar:"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler"/>
-    <property name="os.version" value="10.6.7"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/behumble"/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="os.version" value="2.6.35-28-generic-pae"/>
+    <property name="user.home" value="/home/agoo"/>
     <property name="user.timezone" value=""/>
-    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="1.6"/>
-    <property name="file.encoding" value="EUC_KR"/>
-    <property name="user.name" value="behumble"/>
-    <property name="java.class.path" value="/Users/behumble/Documents/workspace/SVG2EMF/target/test-classes:/Users/behumble/Documents/workspace/SVG2EMF/target/classes:/Users/behumble/.m2/repository/batik/batik-gvt/1.6-1/batik-gvt-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-awt-util/1.6-1/batik-awt-util-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-util/1.6-1/batik-util-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-gui-util/1.6-1/batik-gui-util-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-ext/1.6-1/batik-ext-1.6-1.jar:/Users/behumble/.m2/repository/xml-apis/xmlParserAPIs/2.0.2/xmlParserAPIs-2.0.2.jar:/Users/behumble/.m2/repository/org/freehep/freehep-graphicsio-emf/2.1.1/freehep-graphicsio-emf-2.1.1.jar:/Users/behumble/.m2/repository/org/freehep/freehep-util/2.0.2/freehep-util-2.0.2.jar:/Users/behumble/.m2/repository/org/netbeans/openide-lookup/1.9-patched-1.0/openide-lookup-1.9-patched-1.0.jar:/Users/behumble/.m2/repository/org/freehep/freehep-graphicsio/2.1.1/freehep-graphicsio-2.1.1.jar:/Users/behumble/.m2/repository/org/freehep/freehep-graphics2d/2.1.1/freehep-graphics2d-2.1.1.jar:/Users/behumble/.m2/repository/org/freehep/freehep-export/2.1.1/freehep-export-2.1.1.jar:/Users/behumble/.m2/repository/org/freehep/freehep-swing/2.0.3/freehep-swing-2.0.3.jar:/Users/behumble/.m2/repository/org/freehep/freehep-io/2.0.2/freehep-io-2.0.2.jar:/Users/behumble/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar:/Users/behumble/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar:/Users/behumble/.m2/repository/batik/batik-bridge/1.6-1/batik-bridge-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-script/1.6-1/batik-script-1.6-1.jar:/Users/behumble/.m2/repository/rhino/js/1.5R4.1/js-1.5R4.1.jar:/Users/behumble/.m2/repository/batik/batik-svg-dom/1.6-1/batik-svg-dom-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-dom/1.6-1/batik-dom-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-css/1.6-1/batik-css-1.6-1.jar:/Users/behumble/.m2/repository/batik/batik-xml/1.6-1/batik-xml-1.6-1.jar:/Users/behumble/.m2/repository/xerces/xercesImpl/2.5.0/xercesImpl-2.5.0.jar:/Users/behumble/.m2/repository/batik/batik-parser/1.6-1/batik-parser-1.6-1.jar:"/>
-    <property name="apple.awt.graphics.UseQuartz" value="false"/>
+    <property name="user.name" value="agoo"/>
+    <property name="java.class.path" value="/home/agoo/privateWorkspace/SVG2EMF/target/test-classes:/home/agoo/privateWorkspace/SVG2EMF/target/classes:/home/agoo/.m2/repository/batik/batik-gvt/1.6-1/batik-gvt-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-awt-util/1.6-1/batik-awt-util-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-util/1.6-1/batik-util-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-gui-util/1.6-1/batik-gui-util-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-ext/1.6-1/batik-ext-1.6-1.jar:/home/agoo/.m2/repository/xml-apis/xmlParserAPIs/2.0.2/xmlParserAPIs-2.0.2.jar:/home/agoo/.m2/repository/org/freehep/freehep-graphicsio-emf/2.1.1/freehep-graphicsio-emf-2.1.1.jar:/home/agoo/.m2/repository/org/freehep/freehep-util/2.0.2/freehep-util-2.0.2.jar:/home/agoo/.m2/repository/org/netbeans/openide-lookup/1.9-patched-1.0/openide-lookup-1.9-patched-1.0.jar:/home/agoo/.m2/repository/org/freehep/freehep-graphicsio/2.1.1/freehep-graphicsio-2.1.1.jar:/home/agoo/.m2/repository/org/freehep/freehep-graphics2d/2.1.1/freehep-graphics2d-2.1.1.jar:/home/agoo/.m2/repository/org/freehep/freehep-export/2.1.1/freehep-export-2.1.1.jar:/home/agoo/.m2/repository/org/freehep/freehep-swing/2.0.3/freehep-swing-2.0.3.jar:/home/agoo/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar:/home/agoo/.m2/repository/org/freehep/freehep-io/2.0.2/freehep-io-2.0.2.jar:/home/agoo/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar:/home/agoo/.m2/repository/batik/batik-bridge/1.6-1/batik-bridge-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-script/1.6-1/batik-script-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-svg-dom/1.6-1/batik-svg-dom-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-dom/1.6-1/batik-dom-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-css/1.6-1/batik-css-1.6-1.jar:/home/agoo/.m2/repository/batik/batik-xml/1.6-1/batik-xml-1.6-1.jar:/home/agoo/.m2/repository/xerces/xercesImpl/2.5.0/xercesImpl-2.5.0.jar:/home/agoo/.m2/repository/batik/batik-parser/1.6-1/batik-parser-1.6-1.jar:"/>
     <property name="java.vm.specification.version" value="1.0"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/usr/local/sun-jdk1.6.0_22/jre"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="ko"/>
-    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.6.0_24"/>
-    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
-    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
-    <property name="java.vendor" value="Apple Inc."/>
+    <property name="java.version" value="1.6.0_22"/>
+    <property name="java.ext.dirs" value="/usr/local/sun-jdk1.6.0_22/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/local/sun-jdk1.6.0_22/jre/lib/resources.jar:/usr/local/sun-jdk1.6.0_22/jre/lib/rt.jar:/usr/local/sun-jdk1.6.0_22/jre/lib/sunrsasign.jar:/usr/local/sun-jdk1.6.0_22/jre/lib/jsse.jar:/usr/local/sun-jdk1.6.0_22/jre/lib/jce.jar:/usr/local/sun-jdk1.6.0_22/jre/lib/charsets.jar:/usr/local/sun-jdk1.6.0_22/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
     <property name="java.awt.headless" value="false"/>
-    <property name="localRepository" value="/Users/behumble/.m2/repository"/>
+    <property name="localRepository" value="/home/agoo/.m2/repository"/>
     <property name="file.separator" value="/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="mrj.version" value="1060.1.6.0_24-334"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="3.46" classname="net.hanjava.svg.SVG2EMFTest" name="testConvertHeadless"/>
-  <testcase time="1.745" classname="net.hanjava.svg.SVG2EMFTest" name="testConvertHeadful"/>
+  <testcase time="1.344" classname="net.hanjava.svg.SVG2EMFTest" name="testConvertHeadless"/>
+  <testcase time="0.497" classname="net.hanjava.svg.SVG2EMFTest" name="testConvertHeadful"/>
 </testsuite>
