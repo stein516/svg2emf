@@ -16,7 +16,7 @@ public class CLI {
 		boolean isFilePath = !arg.contains(":/");
 		URL inputUrl = null;
 		if (isFilePath) {
-			inputUrl = new File(arg).toURL();
+			inputUrl = new File(arg).toURI().toURL();
 		} else {
 			inputUrl = new URL(arg);
 		}
