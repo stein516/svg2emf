@@ -17,12 +17,22 @@
 	<developers>
 		<developer>
 			<email>behumble@hanjava.net</email>
-			<name>Geon Goo</name>
+			<name>Alan Goo</name>
 			<url>http://hanjava.net</url>
 		</developer>
 	</developers>
 	<build>
 		<plugins>
+                        <plugin>
+                                <artifactId>maven-compiler-plugin</artifactId>
+                                <version>2.1</version>
+                                <configuration>
+                                        <source>1.6</source>
+                                        <target>1.6</target>
+                                        <encoding>utf8</encoding>
+                                        <fork>true</fork>
+                                </configuration>
+                        </plugin>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
@@ -31,6 +41,11 @@
 							jar-with-dependencies
 						</descriptorRef>
 					</descriptorRefs>
+					<archive>
+						<manifest>
+							<mainClass>net.hanjava.svg.CLI</mainClass>
+						</manifest>
+					</archive>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -44,9 +59,9 @@
 	</repositories>
 	<dependencies>
 		<dependency>
-			<groupId>batik</groupId>
+			<groupId>org.apache.xmlgraphics</groupId>
 			<artifactId>batik-gvt</artifactId>
-			<version>1.6-1</version>
+			<version>1.7</version>
 		</dependency>
 		<dependency>
 			<groupId>org.freehep</groupId>
@@ -54,17 +69,9 @@
 			<version>2.1.1</version>
 		</dependency>
 		<dependency>
-			<groupId>batik</groupId>
+			<groupId>org.apache.xmlgraphics</groupId>
 			<artifactId>batik-bridge</artifactId>
-			<version>1.6-1</version>
+			<version>1.7</version>
 		</dependency>
 	</dependencies>
-	<reporting>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-project-info-reports-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</reporting>
 </project>
