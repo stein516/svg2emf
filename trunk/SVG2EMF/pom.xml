@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>hanjava.net</groupId>
 	<artifactId>svg2emf</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>SVG2EMF</name>
 	<licenses>
 		<license>
